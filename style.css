@@ -9,7 +9,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: black;
     position: sticky;
     top: 0;
 }
@@ -29,5 +29,14 @@
 .navbar ul li a{
     text-decoration:none;
     color:white;
-    padding: 8px;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover
+{
+    color:white;
+    box-shadow: 0 0 10px white;
+
+
 }
