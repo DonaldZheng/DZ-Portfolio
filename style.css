@@ -451,6 +451,43 @@ img{
     display:block;
     background-color: var(--first-color);
 }
+
+.skills__html{
+    width: 100%;
+}
+.skills__css{
+    width: 100%;
+}
+.skills__js{
+    width: 75%;
+}
+.skills__react{
+    width: 0%;
+}
+.skills__c{
+    width: 100%;
+}
+.skills__aspnet{
+    width: 100%;
+}
+.skills__apis{
+    width: 65%;
+}
+.skills__jquery{
+    width: 50%;
+}
+.skills__github{
+    width: 100%;
+}
+.skills__mvc{
+    width: 100%;
+}
+.skills__sql{
+    width: 60%;
+}
+.skills__json{
+    width: 50%;
+}
 /*==================== QUALIFICATION ====================*/
 
 
