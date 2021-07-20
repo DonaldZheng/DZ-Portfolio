@@ -20,7 +20,7 @@ if(navToggle){
 
 /*==================== ACCORDION SKILLS ====================*/
 const skillsContent = document.getElementsByClassName('skills__content'),
-    skillsHeader = document.querySelectorAll('.skills__header')
+    skillsHeader = document.querySelectorAll( '.skills__header')
 
 function toggleSkills(){
     let itemClass = this.parentNode.className
@@ -33,7 +33,7 @@ function toggleSkills(){
     }
 }
 
-skillsHeader.forEach((el) => {
+skillsHeader.forEach((el) =>{
     el.addEventListener('click', toggleSkills)
 })
 
