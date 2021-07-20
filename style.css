@@ -426,6 +426,10 @@ img{
     margin-left: auto;
     transition: 2s;
 }
+.skills__list{
+    row-gap: 1.5rem;
+    /*padding-left: 2.7rem;*/
+}
 .skills__titles{
     display: flex;
     justify-content: space-between;
@@ -488,6 +492,21 @@ img{
 .skills__json{
     width: 50%;
 }
+
+.skills__close .skills__list {
+    height: 0;
+    overflow: hidden;
+}
+
+.skills__open .skills__list{
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+}
+
+.skills__open .skills__arrow{
+    transform: rotate(-180deg);
+}
+
 /*==================== QUALIFICATION ====================*/
 
 
